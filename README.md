@@ -13,10 +13,10 @@ Este proyecto corresponde a la materia de Electiva 2 (DevOps) impartida por el p
 - **Matrícula:** 2012-1036
 
 ## 🚀 Instrucciones de Uso
-1.  **Clonar el repositorio (si aplica):**
+1.  **Clonar el repositorio:**
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_DIRECTORIO>
+    git clone https://github.com/chrisfelixgil/prometheus-grafana-devops.git
+    cd prometheus-grafana-devops
     ```
 2.  **Construir e iniciar los contenedores:**
     Asegúrate de tener Docker y Docker Compose instalados.
@@ -31,7 +31,7 @@ Este proyecto corresponde a la materia de Electiva 2 (DevOps) impartida por el p
         *   **Usuario:** admin
         *   **Contraseña:** admin (definida en `docker-compose.yml`)
 
-4.  **Configurar Grafana (Opcional):**
+4.  **Configurar Grafana:**
     *   Inicia sesión en Grafana.
     *   Agrega Prometheus como fuente de datos (Data Source):
         *   **Tipo:** Prometheus
@@ -50,9 +50,9 @@ Este proyecto corresponde a la materia de Electiva 2 (DevOps) impartida por el p
 ## 📸 Capturas de Pantalla
 A continuación, se muestran capturas de pantalla de los servicios en funcionamiento:
 
-1.  Prometheus Targets
+1.  Docker Compose up
     ![Captura 1](./img/img1.png)
-2.  Grafana Login
+2.  Docker
     ![Captura 2](./img/img2.png)
 3.  Grafana Data Source Configuration
     ![Captura 3](./img/img3.png)
